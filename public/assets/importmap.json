@@ -1,6 +1,6 @@
 {
     "app": {
-        "path": "\/assets\/app-8e03e6dbe2f283051f848709251e9c4e.js",
+        "path": "\/assets\/app-48b4e8f25a4447d3b987300e33df824c.js",
         "type": "js"
     },
     "\/assets\/bootstrap.js": {
@@ -21,6 +21,10 @@
     },
     "\/assets\/styles\/app.css": {
         "path": "\/assets\/styles\/app-6b8f657340d55a8c21c5c4882d4d375f.css",
+        "type": "css"
+    },
+    "\/assets\/styles\/desktop.css": {
+        "path": "\/assets\/styles\/desktop-f73a22f416575ca4923d222f1b679388.css",
         "type": "css"
     },
     "@hotwired\/stimulus": {

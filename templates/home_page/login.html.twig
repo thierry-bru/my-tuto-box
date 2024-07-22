@@ -1,0 +1,16 @@
+<turbo-frame id="login" class="frame-loading-hide" >
+{% if is_granted('IS_AUTHENTICATED_FULLY') %}
+    <li class="nav-item">
+    <div class="d-flex">
+   <span  class="nav-link">{{app.user.email}}</span> <a class="nav-link" href="{{ path('app_logout') }}">logout</a>
+   </div>
+  </li>
+  {% else %}
+      <li class="nav-item">
+        <div class="d-flex">
+    <a class="nav-link" href="{{ path('app_login') }}" data-turbo-frame="content">Login</a>
+    <a class="nav-link" data-turbo-frame="content" href="{{ path('app_register') }}">register</a>
+    </div>
+  </li>
+  {% endif %}
+</turbo-frame>

@@ -3,27 +3,61 @@
 {% block title %}Hello HomePageController!{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
-
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-<button type="button" class="btn btn-primary">Base class</button>
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>/home/thierry/my-tuto-box/src/Controller/HomePageController.php</code></li>
-        <li>Your template at <code>/home/thierry/my-tuto-box/templates/home_page/index.html.twig</code></li>
-    </ul>
-</div>
-<turbo-frame id="the_frame_id" src="{{ path('app_home_page_welcome') }}">
-        A placeholder.
+<div class="container-fluid text-center">
+  <header >
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid d-flex align-items-end">
+        <a class="navbar-brand" href="#"><img src="{{ asset('pictures/interface/logo-tuto-box.png')}}"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <turbo-frame id="login"  src="{{ path('app_home_page_login') }}">
+        </turbo-frame>
+      </ul>
+    </div>
+    </div>
+      <turbo-frame id="profile"  src="{{ path('app_home_page_profile') }}">
+            </turbo-frame>
+    </nav>
+  </header>
+  
+    <main class="row">
+       <div class="col">
+      <turbo-frame id="content" src="{{ path('app_home_page_welcome') }}">
     </turbo-frame>
-<div {{ stimulus_controller('hello') }}>
-    test
+    </div>
+    </main>
+    <footer class="row">
+          <div class="col">
+      footer
+    </div>
+          <div class="col">
+      footer
+    </div>
+    </footer>
+
 </div>
-<div {{ stimulus_controller('chart', { 'name': 'Likes', 'data': [1, 2, 3, 4] }) }}>
-    Hello
-</div>
+
+
 {% endblock %}
