@@ -1,0 +1,10 @@
+
+<turbo-frame id="profile">  
+{% if is_granted('IS_AUTHENTICATED_FULLY') %}
+<a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasMenuProfile" role="button" aria-controls="offcanvasMenuProfile">
+<img class="rounded-circle shadow-sm bg-body-tertiary avatar m-3"src="{{ asset('pictures/avatars/myPilllz25.png')}}">
+
+
+</a>
+{% endif %}
+</turbo-frame>

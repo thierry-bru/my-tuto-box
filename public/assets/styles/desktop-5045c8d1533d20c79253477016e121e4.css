@@ -1,0 +1,23 @@
+header{
+    background-color: white;
+    border: 1px black solid;
+    height: 30vh;
+}
+main{
+
+    border: 1px black solid;
+
+}
+
+footer{
+
+    border: 1px black solid;
+    height: 5vh;
+}
+.avatar{
+    height: 10vh; 
+}
+body
+{
+    min-height: 100%;
+}

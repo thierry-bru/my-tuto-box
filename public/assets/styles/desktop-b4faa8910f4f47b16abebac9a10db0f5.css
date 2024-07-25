@@ -1,0 +1,13 @@
+header{
+    height: 15vh;
+    background-color: white;
+}
+main{
+    height: 75vh;
+}
+footer{
+    height: 10vh;
+}
+.avatar{
+    height: 15vh; 
+}

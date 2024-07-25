@@ -1,0 +1,26 @@
+header {
+    background-color: white;
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+footer {
+    border: 1px black solid;
+}
+
+.avatar {
+    height: 10vh;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15vh 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "." "." ".";
+    height: 100vh;
+}

@@ -1,0 +1,22 @@
+header{
+    background-color: white;
+    border: 1px black solid;
+}
+main{
+    background-color: green;
+    border: 1px black solid;
+    height: 100%
+}
+
+footer{
+
+       border: 1px black solid;
+    height: 50px;
+}
+.avatar{
+    height: 10vh; 
+}
+body
+{
+    min-height: 100%;
+}

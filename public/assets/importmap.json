@@ -1,6 +1,6 @@
 {
     "app": {
-        "path": "\/assets\/app-8e03e6dbe2f283051f848709251e9c4e.js",
+        "path": "\/assets\/app-85f6ef9deb5b93a7d428230d25976c5b.js",
         "type": "js"
     },
     "\/assets\/bootstrap.js": {
@@ -19,8 +19,16 @@
         "path": "\/assets\/controllers\/hello_controller-55882fcad241d2bea50276ea485583bc.js",
         "type": "js"
     },
+    "\/assets\/popper.min.js": {
+        "path": "\/assets\/popper.min-c372c445e6503c1e1c8f436059247c5c.js",
+        "type": "js"
+    },
     "\/assets\/styles\/app.css": {
-        "path": "\/assets\/styles\/app-6b8f657340d55a8c21c5c4882d4d375f.css",
+        "path": "\/assets\/styles\/app-1bb6fc15da2ad8cacc5e39ffd1392b4a.css",
+        "type": "css"
+    },
+    "\/assets\/styles\/desktop.css": {
+        "path": "\/assets\/styles\/desktop-ba927e3169698e3294d8a38f1a301350.css",
         "type": "css"
     },
     "@hotwired\/stimulus": {

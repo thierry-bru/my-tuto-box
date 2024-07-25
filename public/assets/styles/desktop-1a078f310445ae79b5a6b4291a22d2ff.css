@@ -1,0 +1,16 @@
+header{
+    height: 20vh;
+    background-color: white;
+}
+main{
+    height: 60vh;
+}
+nav{
+    height: 10vh;
+}
+footer{
+    height: 10vh;
+}
+.avatar{
+    height: 10vh; 
+}

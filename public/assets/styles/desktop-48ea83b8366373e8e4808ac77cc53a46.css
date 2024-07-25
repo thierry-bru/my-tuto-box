@@ -1,0 +1,27 @@
+header{
+    background-color: white;
+    border: 1px black solid;
+}
+main{
+    border: 1px black solid;
+
+}
+
+footer{
+    border: 1px black solid;
+}
+.avatar{
+    height: 10vh; 
+}
+body
+{
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 15% 80% 5%; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."
+      "."
+      "."; 
+}

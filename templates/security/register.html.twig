@@ -1,0 +1,25 @@
+<turbo-frame id="content">
+    {% for flash_error in app.flashes('verify_email_error') %}
+        <div class="alert alert-danger" role="alert">{{ flash_error }}</div>
+    {% endfor %}
+    <div class="mx-auto">
+        <div class="card w-50  mx-auto" >
+            <img  class="card-img-top" src="{{ asset('pictures/interface/software-developer.jpg')}}">
+               <h5 class="card-title p-3 m-0 bg-primary">Register</h5>
+            <div class="card-body">
+             
+            {{ form_errors(registrationForm) }}
+                {{ form_start(registrationForm,{'action': path('app_register'), 'method': 'POST'}) }}
+                    {{ form_row(registrationForm.email) }}
+                    {{ form_row(registrationForm.plainPassword, {
+                        label: 'Password'
+                    }) }}
+                    {{ form_row(registrationForm.agreeTerms) }}
+
+                    <div class="d-flex justify-content-end"> <button type="submit" class="btn btn-primary">Register</button></div>
+                {{ form_end(registrationForm) }}
+
+            </div>
+        </div>
+        </div>
+</turbo-frame> 
