@@ -3,7 +3,7 @@
     "@symfony\/stimulus-bundle\/loader.js": "\/assets\/@symfony\/stimulus-bundle\/loader-e1ee9ace0562f2e6a52301e4ccc8627d.js",
     "@symfony\/ux-turbo\/turbo_controller.js": "\/assets\/@symfony\/ux-turbo\/turbo_controller-ce5e32dafdec0b7752f02e3e2cb25751.js",
     "@symfony\/ux-turbo\/turbo_stream_controller.js": "\/assets\/@symfony\/ux-turbo\/turbo_stream_controller-a9d0d06c48318d35cc0e0aa27ef6b2dc.js",
-    "app.js": "\/assets\/app-48b4e8f25a4447d3b987300e33df824c.js",
+    "app.js": "\/assets\/app-85f6ef9deb5b93a7d428230d25976c5b.js",
     "bootstrap.js": "\/assets\/bootstrap-0d3d4e4d1fc88d967d018a5fe7e5be4f.js",
     "controllers\/hello_controller.js": "\/assets\/controllers\/hello_controller-55882fcad241d2bea50276ea485583bc.js",
     "pictures\/avatars\/myPilllz01.png": "\/assets\/pictures\/avatars\/myPilllz01-9bbc91305b29f94f7ceb29bd31b27ba3.png",
@@ -37,8 +37,10 @@
     "pictures\/avatars\/myPilllz29.png": "\/assets\/pictures\/avatars\/myPilllz29-e621c5586471d8d29564e7c8f208fe44.png",
     "pictures\/avatars\/myPilllz30.png": "\/assets\/pictures\/avatars\/myPilllz30-7281aba5e961ab5e5cffb20c2ce686c1.png",
     "pictures\/interface\/logo-tuto-box.png": "\/assets\/pictures\/interface\/logo-tuto-box-4f8e4f50aa8c2b96e813baa81e0538c4.png",
-    "styles\/app.scss": "\/assets\/styles\/app-6b8f657340d55a8c21c5c4882d4d375f.css",
-    "styles\/desktop.scss": "\/assets\/styles\/desktop-f73a22f416575ca4923d222f1b679388.css",
+    "pictures\/interface\/software-developer.jpg": "\/assets\/pictures\/interface\/software-developer-6a08e571c4d502b8d83ed79e95c072af.jpg",
+    "popper.min.js": "\/assets\/popper.min-c372c445e6503c1e1c8f436059247c5c.js",
+    "styles\/app.scss": "\/assets\/styles\/app-1bb6fc15da2ad8cacc5e39ffd1392b4a.css",
+    "styles\/desktop.scss": "\/assets\/styles\/desktop-ba927e3169698e3294d8a38f1a301350.css",
     "vendor\/@hotwired\/stimulus\/stimulus.index.js": "\/assets\/vendor\/@hotwired\/stimulus\/stimulus.index-b5b1d00e42695b8959b4a1e94e3bc92a.js",
     "vendor\/@hotwired\/turbo\/turbo.index.js": "\/assets\/vendor\/@hotwired\/turbo\/turbo.index-810f44ef1a202a441e4866b7a4c72d11.js"
 }

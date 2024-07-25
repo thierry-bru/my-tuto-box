@@ -1,5 +1,6 @@
 [
     "\/assets\/bootstrap.js",
+    "\/assets\/popper.min.js",
     "\/assets\/styles\/app.css",
     "\/assets\/styles\/desktop.css",
     "@symfony\/stimulus-bundle",

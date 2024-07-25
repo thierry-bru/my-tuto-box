@@ -1,0 +1,19 @@
+header{
+    background-color: white;
+    border: 1px black solid;
+}
+main{
+    border: 1px black solid;
+}
+
+footer{
+    height: 5vh;
+    border: 1px black solid;
+}
+.avatar{
+    height: 10vh; 
+}
+body
+{
+    height: 100vh;
+}

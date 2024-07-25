@@ -1,6 +1,9 @@
-
+$primary:#0af0a7;
+$secondary:#f0610a;
 @import '../../vendor/twbs/bootstrap/scss/bootstrap';
 $backgroundcolor: rgb(245, 245, 245);
+$primary: violet;
+$card-bg: pink;
 body {
     background-color: $backgroundcolor;
 }

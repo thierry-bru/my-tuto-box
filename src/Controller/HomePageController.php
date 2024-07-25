@@ -18,7 +18,7 @@ class HomePageController extends AbstractController
     #[Route('/turbo/welcome', name: 'app_home_page_welcome')]
     public function welcome(): Response
     {
-        return $this->render('home_page/welcome.html.twig');
+        return $this->render('home_page/presentation.html.twig');
     }
     #[Route('/turbo/menu', name: 'app_home_page_menu')]
     public function menu(): Response
